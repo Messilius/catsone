@@ -1,0 +1,66 @@
+<Header/>
+<!-- DO NOT MODIFY ANYTHING ABOVE THIS LINE, TO EDIT YOUR HEADER, SEE: Header.html -->
+
+<div id="stepSendToFriend">
+    <div id="jobDetails">
+        <JobBar/>
+    </div>
+
+    <PreviewJobDescription/>
+
+    <BeginForm/>
+    <div class="headerContainer"></div>
+    <div id="application">
+        <div class="row" id="">
+            <div class="field required"><DefaultTagYourEmailColon/></div>
+            <div class="icon required">
+                <span>*</span>
+            </div>
+            <div class="input required">
+                <input id="email1" name="email1" type="text" class="formInput large" />
+            </div>
+        </div>
+        <div class="row" id="">
+            <div class="field required"><DefaultTagFriendsEmailColon/></div>
+            <div class="icon required">
+                <span>*</span>
+            </div>
+            <div class="input required">
+                <FriendEmailInput/>
+            </div>
+        </div>
+        <div class="row" id="">
+            <div class="field"><DefaultTagSubjectColon/></div>
+            <div class="icon">&nbsp;</div>
+            <div class="input">
+                <SubjectInput/>
+            </div>
+        </div>
+        <div class="row" id="">
+            <div class="field "><DefaultTagMessageColon/></div>
+            <div class="icon">&nbsp;</div>
+            <div class="input">
+                <BodyInput/>
+            </div>
+            <br class="clear" />
+        </div>
+        <div class="row" id="captchaCode">
+            <div class="field ">&nbsp;</div>
+            <div class="icon">&nbsp;</div>
+            <div class="input">
+                <Captcha/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="field"></div>
+            <div class="icon"></div>
+            <div class="input">
+                <input type="submit" class="submitButton" value="Submit" />
+            </div>
+        </div>
+    </div>
+    </form>
+</div>
+
+<!-- DO NOT MODIFY ANYTHING BELOW THIS LINE, TO EDIT YOUR FOOTER, SEE: Footer.html -->
+<Footer/>

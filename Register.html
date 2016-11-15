@@ -1,0 +1,62 @@
+<Header/>
+<!-- DO NOT MODIFY ANYTHING ABOVE THIS LINE, TO EDIT YOUR HEADER, SEE: Header.html -->
+
+<div id="stepRegister">
+    <div id="jobDetails">
+        <p id="jobDetailsh2">Inscription<p/>
+        <p class="Vous-inscrire-permet-denregistrer-vos-informations-personnelle">Vous inscrire permet d'enregistrer vos informations personnelles pour appliquer plus rapidement à nos offres de postes.</p>
+    </div>
+    <Message/>
+	<div id="applicationOuter">
+        <BeginForm/>
+        <div id="application">
+            <div class="row" id="">
+                <div class="field required">
+                       <DefaultTagEmailColon/>
+                </div>
+                <div class="icon required">
+                    <span>*</span>
+                </div>
+                <div class="input">
+                    <UserEmailInput/>
+                </div>
+                <br class="clear" />
+            </div>
+            <div class="row" id="">
+                <div class="field required"><DefaultTagPasswordColon/></div>
+                <div class="icon required">
+                    <span>*</span>
+                </div>
+                <div class="input">
+                    <UserPasswordFirstInput/>
+                    <span class="textLight"><DefaultTagMustBeFiveCharacters/></span>
+                </div>
+                <br class="clear" />
+            </div>
+            <div class="row" id="">
+                <div class="field required"><DefaultTagRetypePasswordColon/></div>
+                <div class="icon required">
+                    <span>*</span>
+                </div>
+                <div class="input">
+                    <UserPasswordSecondInput/>
+                </div>
+                
+            </div>
+        </div>
+        <Application/>
+        <div id="application">
+            <div class="row">
+                <div class="field"></div>
+                <div class="icon"></div>
+                <div class="input submit">
+                    <input type="submit" class="submitButton" value="S'INSCRIRE" />
+                </div>
+            </div>
+        </div>
+        </form>
+    </div>
+</div>
+
+<!-- DO NOT MODIFY ANYTHING BELOW THIS LINE, TO EDIT YOUR FOOTER, SEE: Footer.html -->
+<Footer/>
