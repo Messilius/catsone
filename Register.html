@@ -2,18 +2,16 @@
 <!-- DO NOT MODIFY ANYTHING ABOVE THIS LINE, TO EDIT YOUR HEADER, SEE: Header.html -->
 
 <div id="stepRegister">
-    <div id="jobDetails">
-        <p id="jobDetailsh2">Inscription<p/>
-        <p class="Vous-inscrire-permet-denregistrer-vos-informations-personnelle">Vous inscrire permet d'enregistrer vos informations personnelles pour appliquer plus rapidement à nos offres de postes.</p>
-    </div>
     <Message/>
+    <div id="jobDetails">
+        <h2><DefaultTagRegisterWith/> <CompanyName/></h2>
+        <p><DefaultTagRegisteringConsideration/> <DefaultTagCreateAccountUpdateInformationContact/></p>
+    </div>
 	<div id="applicationOuter">
         <BeginForm/>
         <div id="application">
             <div class="row" id="">
-                <div class="field required">
-                       <DefaultTagEmailColon/>
-                </div>
+                <div class="field required"><DefaultTagEmailColon/></div>
                 <div class="icon required">
                     <span>*</span>
                 </div>
@@ -41,7 +39,7 @@
                 <div class="input">
                     <UserPasswordSecondInput/>
                 </div>
-                
+                <br class="clear" />
             </div>
         </div>
         <Application/>
@@ -50,7 +48,7 @@
                 <div class="field"></div>
                 <div class="icon"></div>
                 <div class="input submit">
-                    <input type="submit" class="submitButton" value="S'INSCRIRE" />
+                    <input type="submit" class="submitButton" value="Submit" />
                 </div>
             </div>
         </div>
